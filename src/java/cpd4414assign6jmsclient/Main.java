@@ -51,7 +51,7 @@ public class Main {
             MessageProducer messageProducer = session.createProducer(queue);
             
             JsonObject json = Json.createObjectBuilder()
-                    .add("productID", 5129)
+                    .add("productId", 5129)
                     .add("name", "1/4\" Stainless Bolt")
                     .add("description", "Quarter-inch stainless bolt")
                     .add("quantity", 423)
