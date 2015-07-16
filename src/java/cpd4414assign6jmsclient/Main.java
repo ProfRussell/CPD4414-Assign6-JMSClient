@@ -1,5 +1,6 @@
 /*
  * Copyright 2015 Len Payne <len.payne@lambtoncollege.ca>.
+ * Updated 2015 Mark Russell <mark.russell@lambtoncollege.ca>.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -51,9 +52,9 @@ public class Main {
             MessageProducer messageProducer = session.createProducer(queue);
             
             JsonObject json = Json.createObjectBuilder()
-                    .add("productId", 5129)
-                    .add("name", "1/4\" Stainless Bolt")
-                    .add("description", "Quarter-inch stainless bolt")
+                    .add("productId", 1337)
+                    .add("name", "3/4\" Donut Hole")
+                    .add("description", "Three-quarter-inch donut hole")
                     .add("quantity", 423)
                     .build();
             
